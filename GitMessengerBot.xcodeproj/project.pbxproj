@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3995A126198A68006576F4 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3995A026198A68006576F4 /* StatusBarController.swift */; };
 		9B986FB326196B4700B22E20 /* GitMessengerBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B986FB226196B4700B22E20 /* GitMessengerBotApp.swift */; };
 		9B986FB526196B4700B22E20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B986FB426196B4700B22E20 /* ContentView.swift */; };
 		9B986FB726196B4700B22E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B986FB626196B4700B22E20 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B3995A026198A68006576F4 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 		9B986FAF26196B4700B22E20 /* GitMessengerBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitMessengerBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B986FB226196B4700B22E20 /* GitMessengerBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitMessengerBotApp.swift; sourceTree = "<group>"; };
 		9B986FB426196B4700B22E20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				9B986FB626196B4700B22E20 /* Assets.xcassets */,
 				9B986FBB26196B4700B22E20 /* Info.plist */,
 				9B986FB826196B4700B22E20 /* Preview Content */,
+				9B3995A026198A68006576F4 /* StatusBarController.swift */,
 			);
 			path = GitMessengerBot;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B986FB526196B4700B22E20 /* ContentView.swift in Sources */,
+				9B3995A126198A68006576F4 /* StatusBarController.swift in Sources */,
 				9B986FB326196B4700B22E20 /* GitMessengerBotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

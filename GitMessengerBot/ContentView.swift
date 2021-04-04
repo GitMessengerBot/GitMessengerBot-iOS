@@ -30,12 +30,14 @@ struct ContentView: View {
             )
         }
         .padding()
-        .background(Color(UIColor(named: "Primary")!))
+        .background(Color(UIColor(named:"Primary")!)
+                        .edgesIgnoringSafeArea(.all))
         .frame(
             maxWidth: .infinity,
             maxHeight: .infinity,
             alignment: .center
         )
+        .statusBarStyle(.lightContent)
     }
 }
 
