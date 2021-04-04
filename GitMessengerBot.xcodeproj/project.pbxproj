@@ -20,6 +20,7 @@
 		9B986FB626196B4700B22E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B986FB926196B4700B22E20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B986FBB26196B4700B22E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B986FCF2619800800B22E20 /* GitMessengerBot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitMessengerBot.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		9B986FB126196B4700B22E20 /* GitMessengerBot */ = {
 			isa = PBXGroup;
 			children = (
+				9B986FCF2619800800B22E20 /* GitMessengerBot.entitlements */,
 				9B986FB226196B4700B22E20 /* GitMessengerBotApp.swift */,
 				9B986FB426196B4700B22E20 /* ContentView.swift */,
 				9B986FB626196B4700B22E20 /* Assets.xcassets */,
@@ -267,6 +269,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GitMessengerBot/GitMessengerBot.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GitMessengerBot/Preview Content\"";
 				DEVELOPMENT_TEAM = 42G2R96857;
@@ -279,6 +283,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.sungbin.GitMessengerBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,6 +294,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GitMessengerBot/GitMessengerBot.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GitMessengerBot/Preview Content\"";
 				DEVELOPMENT_TEAM = 42G2R96857;
@@ -301,6 +308,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.sungbin.GitMessengerBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
